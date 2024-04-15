@@ -1,0 +1,30 @@
+
+
+header{font-size: 24px;
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p{font-size: 28px;
+}
+.box{
+    display: block;
+    float: left;
+    width: 20%;
+    padding:10px;
+    overflow: hidden;
+    margin-left: 40px;
+    justify-items: center;
+   
+
+}
+img{
+width: 250px;
+height: 250px;
+border-radius: 15px;
+
+}
+img:hover{
+    transform: scale(1.5,1.5);
+    transition: 1.3s transform;
+    border-radius: 5px;
+}
